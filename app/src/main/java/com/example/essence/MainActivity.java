@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout bottomSheetLayout;
     private ViewPager2 pa;
     ViewPageAdapter vpAdaptor;
-    //chnage this to any other layout
+    
     LinearLayout hardwareLayout, lockscreenLayout, qsLayout, statusbarLayout, systemLayout, themesLayout;
     TextView harwdareTextView, lockscreenTextView, qsTextView, statusbarTextView, systemTextView, themesTextView;
     private LinearLayout[] layoutArray;

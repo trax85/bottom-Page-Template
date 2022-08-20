@@ -26,6 +26,8 @@ public class ViewPageAdapter extends FragmentStateAdapter {
         super(fragmentManager, lifecycle);
     }
 
+    //here is is all your fragments and this is where the fragment gets created
+    //as a result of onclick event
     @RequiresApi(api = Build.VERSION_CODES.N)
     @NonNull
     @Override
