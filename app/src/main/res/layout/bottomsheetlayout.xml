@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_sheet"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:paddingBottom="20dp"
+    app:layout_behavior="@string/bottom_sheet_behavior" >
+
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="300dp"
+            android:background="@color/black"
+            android:src="@drawable/ic_menu" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/layoutHardware"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="25dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@color/black"
+        android:backgroundTint="#272727"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:id="@+id/textHardware"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="2dp"
+            android:text="Harware"
+            android:letterSpacing="0.2"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutLockScreen"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingStart="25dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@color/black"
+        android:backgroundTint="#272727"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:id="@+id/textViewLockscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="20dp"
+            android:text="Lock screen"
+            android:letterSpacing="0.2"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutQs"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingStart="25dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@color/black"
+        android:backgroundTint="#272727"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:id="@+id/textViewQs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="20dp"
+            android:text="QS"
+            android:letterSpacing="0.2"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutStatusBar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingStart="25dp"
+        android:paddingTop="15dp"
+        android:background="@color/black"
+        android:backgroundTint="#272727"
+        android:paddingBottom="15dp" >
+
+
+        <TextView
+            android:id="@+id/textViewStatusBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="20dp"
+            android:text="statusbar"
+            android:letterSpacing="0.3"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutSystem"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingStart="25dp"
+        android:paddingTop="15dp"
+        android:background="@color/black"
+        android:backgroundTint="#272727"
+        android:paddingBottom="15dp" >
+
+
+        <TextView
+            android:id="@+id/textViewSystem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="20dp"
+            android:text="System"
+            android:letterSpacing="0.3"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutTheme"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingStart="25dp"
+        android:paddingTop="15dp"
+        android:background="@color/black"
+        android:backgroundTint="#272727"
+        android:paddingBottom="15dp" >
+
+
+        <TextView
+            android:id="@+id/textViewTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="20dp"
+            android:text="Theme"
+            android:letterSpacing="0.3"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
